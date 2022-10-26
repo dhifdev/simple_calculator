@@ -92,3 +92,38 @@ button:hover {
   box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
   transition: 0.2s;
 }
+
+@media only screen and (max-width: 640px) {
+  .wrapper {
+    width: 100%;
+    max-width: 305px;
+    height: 277px;
+  }
+  .button {
+    width: 100%;
+    max-width: 299px;
+    height: 223px;
+  }
+  .btn-num {
+    width: 54px;
+    height: 36px;
+    font-size: 24px;
+  }
+  .btn-operator {
+    width: 54px;
+    height: 36px;
+    font-size: 24px;
+  }
+  .btn-equal {
+    width: 54px;
+    height: 36px;
+    font-size: 24px;
+  }
+  button {
+    margin: 5px;
+  }
+  #display {
+    font-size: 40px;
+    margin-right: 25px;
+  }
+}
