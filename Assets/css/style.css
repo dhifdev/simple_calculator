@@ -12,9 +12,15 @@
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: auto;
+}
+
+.wm {
+  margin-top: -4rem;
+  margin-bottom: 3rem;
 }
 
 .wrapper {
@@ -126,5 +132,9 @@ button:hover {
   #display {
     font-size: 40px;
     margin-right: 25px;
+  }
+
+  .wm {
+    margin-bottom: 17rem;
   }
 }
