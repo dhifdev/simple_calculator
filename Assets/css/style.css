@@ -19,8 +19,9 @@
 }
 
 .wm {
-  margin-top: -4rem;
-  margin-bottom: 3rem;
+  margin-top: 0.4rem;
+  margin-left: 0.8rem;
+  z-index: 10;
 }
 
 .wrapper {
@@ -135,6 +136,6 @@ button:hover {
   }
 
   .wm {
-    margin-bottom: 17rem;
+    margin-bottom: 15rem;
   }
 }
